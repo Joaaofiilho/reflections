@@ -1,0 +1,111 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver
+o bug que foi introduzido?
+
+    Pois ao comparar o arquivo, o sistema mostra exatamente quais linhas foram
+    modificadas, o que ajuda MUITO na hora de ver o que deu de errado. Em vez
+    de ter que ver toneladas de linhas, você vê de forma rápida e clara
+    exatamente onde o erro se encontra.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um 
+programador mais eficiente no longo prazo?
+
+    Porque se meu programa tiver um desempenho ruim em alguma versão, posso
+    facilmente voltar atrás e ter todo o meu aplicativo/projeto de volta
+    rapidamente. Ter todas as versões de um projeto salvas é uma forma
+    bastante eficiente de segurança e eficiência de um trabalho.
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando
+criar um commit, como ocorre no Git, vs. o salvamento automático de versões,
+como no Google Docs?
+
+    Prós:
+    - Seus commits terão mais sentido, já que com commits baseados em bons
+    sentidos lógicos ficam mais organizados e práticos.
+    - Se o projeto for grande, ficará bem mais fácil recuperar alguma parte
+    do projeto caso algo dê errado, já que os commits ficam bem mais
+    organizados.
+    - Você tem liberdade de trabalhar o quanto quiser caso a coisa a se fazer
+    seja de árdua dedicação e tempo, já que sem o salvamento automático você
+    pode salvar manualmente posteriormente, com toda a etapa já pronta (caso
+    toda essa etapa esteja dentro de somente um sentido lógico para um commit).
+
+    Contras:
+    - Entra o fator do esquecimento. Uma pessoa pode simplesmente passar um dia
+    inteiro ou até mesmo uma semana trabalhando em algo sem ter dado sequer um
+    commit, prejudicando bastante o trabalho.
+    - O tempo desperdiçado para se fazer vários commits em um projeto entra em
+    uma quantidade considerável, coisa que não aconteceria caso essa ação fosse
+    de forma automática.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git,
+permitem salvar vários arquivos em um commit, enquanto outros, como o Google
+Docs, tratam cada arquivo separadamente?
+
+    Porque o Git é um local voltado para o controle de versões de códigos de
+    programação, que geralmente têm vários arquivos que juntos têm uma só
+    finalidade. Por isso é mais viável que analise todos os arquivos justos
+    em vez de um por vez, já que todos são necessários para o bom funcionamento
+    de um programa.
+    Já o Google Docs é diferente. Quando você cria um documento de texto, você
+    quer fazer todo o trabalho em um só arquivo em todas as vezes, sendo cada
+    arquivo voltado para uma única coisa, sem depender de qualquer outro, sendo
+    assim mais lógico usar o versionamento em um arquivo por vez.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+    Primeiramente você tem que ter os arquivos baixados do Github no seu computador.
+    Para isso é necessário clonar os arquivos de um repositório do Git. O comando é
+    o seguinte:
+
+    "$git clone https://sua.url.aqui"
+
+    Tudo isso dentro da pasta previamente aberta com o seguinte comando:
+
+    "cd C:/local/da/sua/pasta"
+
+    Ao ter todos os arquivos clonados, eles já vão estar na sua máquina com todos os
+    commits já postados até o momento no Github. Então, com o Git Bash é só navegar
+    até o local da pasta onde estão localizados os arquivos com o comando "cd" e
+    então usar o comando "git log" para ver uma lista com TODOS os commits e seus
+    IDs que foram lançados até o momento.
+    
+    Nota: Para ver o restante dos commits basta usar as setas direcionais do teclado
+    para cima e para baixo.
+
+    Ao encontrar os commits os quais você quer comparar, basta anotar o ID de cada um
+    e usar o comando "Git diff", que é usado da seguinte maneira:
+
+    "$git giff oIdDoPrimeiroCommitAqui oIdDoSegundoCommitAqui"
+
+    Pronto! O console vai automaticamente mostrar as diferenças entre ambos os commits.
+
+    Nota: O comando "git diff" leva em consideração o primeiro arquivo sendo o
+    "Original" e o segundo arquivo como sendo "a nova versão". Então o que for
+    adicionado no segundo argumento e não tiver no primeiro terá um sinal de +,
+    o mesmo acontece com o sinal de -.
+
+    Nota: Caso a visualização não esteja com uma interface colorida (Vermelho para as
+    linhas removidas e verde para as adicionadas), basta executar o seguinte comando:
+
+    "git config --global color.ui true"
+
+   	Sendo o comando "--global" para indicar que essa mudança é para todos os arquivos
+   	do Git e não apenas para o arquivo em questão.
+
+
+
+HDe que modo o controle de versão pode dar a você mais segurança para fazer alterações
+que podem danificar algo?
+
+    Pois caso alguma coisa dê errado no código, você pode facilmente alternar entre as
+    versões do seu programa, executar essa versão e ver se ela tem ou não o bug ou
+    qualquer outra coisa que você esteja procurando. Ao ver que a versão não tem mais
+    o bug, é só comparar o código das versão com o bug e a anterior à ela (que logicamente
+    seria a que não tem o bug). Ao encontrar o erro, basta modificá-lo.
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+    Para facilitar meu dia-a-dia com todos os projetos que tenho à fazer. Com ele
+    vou poder facilmente dar commit em tudo que eu fizer, para que eu possa
+    administrar bem meu projeto como um todo com simples linhas de comando.
+
