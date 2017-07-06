@@ -1,0 +1,29 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+	Cria-se uma pasta oculta denominada ".git" que serve para armazenar o
+	histórico de commits. Criar um repositório é super importante para se ter
+	o controle de versionamento e uma maior segurança caso algo dê errado no
+	código.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório?
+Qual valor você acha que ela oferece?
+
+	A diferença está que as coisas que estão na área de preparação não
+	necessariamente estão no repositório, então com essa ideia é possível
+	concluir que já que os arquivos estão pendentes para serem enviados, o
+	controle sobre esses arquivos fica bem maior, deixando livre a edição
+	dos arquivos caso necessário.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
