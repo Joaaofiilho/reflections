@@ -1,3 +1,5 @@
+Reflexões da Lição 2
+
 O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 
 	Cria-se uma pasta oculta denominada ".git" que serve para armazenar o
@@ -14,16 +16,44 @@ Qual valor você acha que ela oferece?
 	controle sobre esses arquivos fica bem maior, deixando livre a edição
 	dos arquivos caso necessário.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+Como você pode usar a área de preparação para garantir que tenha um commit por
+alteração lógica?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	Pois com ela posso trabalhar em vários arquivos e fazer o commit de arquivo
+	por arquivo, ou melhor, de alteração lógica por alteração lógica.
 
-How do the diagrams help you visualize the branch structure?
+Quais são algumas das situações em que branches seriam úteis para manter seu
+histórico organizado? Como branches ajudariam?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	Quando eu quero criar ou testar algo no meu projeto que não tenho certeza
+	se vou de fato pôr na versão final. Os branches permitiriam ao usuário
+	fazer esses testes ou mudanças à vontade sem prejudicar o trabalho final.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+	Eles dão uma visão geral de como os branchs então organizados. Podendo ser
+	possível ver commits que nunca serão vistos pelo projeto (Head desanexed),
+	todos os branchs que já foram criados, incluindo em que parte do código e
+	até onde foram.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no
+diagrama dessa forma?
+
+	O resultado é um commit logo depois da ponta do Branch principal, commit
+	esse que engloba todas os commits feitos no Branch principal e os commits
+	realizados no Branch que você está fazendo Merge. A representação é feita
+	dessa forma por conta da organização e controle. Com Branchs fica mais
+	fácil dividir o trabalho quando se está trabalhando em equipe e ainda por
+	cima é muito fácil trabalhar uma possível nova funcionalidade sem atrapalhar
+	em nada o andamento do projeto.
+
+Quais são os prós e contras da mesclagem automática do Git vs. sempre fazer
+mesclagens manualmente?
+
+	Ao se fazer uma mesclagem automática o usuário não precisa gastar seu tempo
+	analizando código para descobrir o que deu errado, então com mais tempo mais
+	trabalho é realizado e a progressão de um projeto acelera. Porém, se o Git
+	decidisse sozinho o que fazer quando dois códigos entram em conflito, isso
+	seria bastante frustante, já que poderia ocasionar em muitos erros. Então,
+	mesmo que seja trabalhoso ver o que deu de errado em um conflito, ainda é
+	algo essencial para o correto andamento do projeto.
