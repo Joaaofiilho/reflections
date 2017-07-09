@@ -22,3 +22,14 @@ um e não os outros?
     não tenho permissões para modificar o arquivo que está no repositório
     dessa pessoa, eu o bifurco para minha conta onde posso fazer alterações
     livremente.
+
+ Qual é o benefício de ter uma cópia do último estado conhecido do remoto
+ armazenado localmente?
+
+ 	Pois dessa forma você fica com a versão mais recente do projeto em seu
+ 	computador. É bom em situações onde você não terá acesso à internet, como
+ 	durante uma viagem. Ter a versão atualizada te possibilita saber o que as
+ 	outras pessoas fizeram ao mesmo tempo em que te permite evitar ou resolver
+ 	Merges que serão conflitantes.
+
+ 
