@@ -9,3 +9,16 @@ atualizar-se automaticamente com o seu repositório remoto?
 	Pois, por alguma razão, possa ser que eu não queira que as alterações sejam
 	salvas imediatamente no meu repositório local, então não atualizar
 	automaticamente te dá um controle maior sobre isso.
+    
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria
+um e não os outros?
+
+    Ao fazer um clone, você copia um repositório do Github para o seu próprio
+    computador, uso quando eu já quero o projeto da forma que está ou quando
+    o projeto é meu e quero modificá-lo. Os branches são as "linhas" às quais
+    você está fazendo alteração no seu projeto, são elas que você envia ou
+    recebe de um repositório para outro. Já as bifurcações é quando eu quero
+    modificar algo de um projeto de outra pessoa para uso pessoal, e já que
+    não tenho permissões para modificar o arquivo que está no repositório
+    dessa pessoa, eu o bifurco para minha conta onde posso fazer alterações
+    livremente.
