@@ -43,3 +43,14 @@ um e não os outros?
  	Os pontos ruins é a falta de praticidade para verificar as mudanças, a
  	dificuldade de posteriormente dar um Merge ao Branch master, a avaliação
  	linha-a-linha que o github permite e muitas outras coisas.
+
+ Quando você gostaria de fazer alterações em um branch separado, e não
+ diretamente no master? Quais são os benefícios de cada abordagem?
+
+ 	Eu faria isso quando eu estivesse trabalhando com outras pessoas, pois dessa
+ 	forma poderei usar a função "Pull request" do Github para que minhas mudanças
+ 	possam ser vistas pelas pessoas as quais estou colaborando, para que todos
+ 	possam aprovar ou recusar essas mudanças. Ao fazer mudanças diretamente no
+ 	master, você reduz o tempo que levaria para fazer todo o processo de
+ 	criação de um branch/Merge do branch criado ao master, porém isso só é
+ 	recomendado usar ao se trabalhar sozinho.
