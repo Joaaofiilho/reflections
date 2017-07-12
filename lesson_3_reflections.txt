@@ -32,4 +32,14 @@ um e não os outros?
  	outras pessoas fizeram ao mesmo tempo em que te permite evitar ou resolver
  	Merges que serão conflitantes.
 
- 
+ Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais
+ difícil?
+
+ 	Creio que eu enviaria um e-mail ou outra forma de comunicação enviando
+ 	minhas alterações via anexo e esperar que o dono do projeto o qual estou
+ 	sugerindo mudanças visualize e analise minhas sugestões. O único ponto
+ 	bom que vejo em fazer isso é a facilidade de comunicação, já que é em
+ 	tempo real, diferente do Github, que não é um ambiente focado nessa tarefa.
+ 	Os pontos ruins é a falta de praticidade para verificar as mudanças, a
+ 	dificuldade de posteriormente dar um Merge ao Branch master, a avaliação
+ 	linha-a-linha que o github permite e muitas outras coisas.
